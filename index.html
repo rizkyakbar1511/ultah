@@ -5,7 +5,7 @@
 <!--[if gt IE 8]> <html> <![endif]-->
 <!--[if !IE]><!--><html lang="en"><!-- <![endif]-->
 <head>
-	<title>Selamat Ulang Tahun :)</title>
+	<title>Selamat Ulang Tahun Istriku</title>
 	<meta charset="UTF-8" />
 	<meta name="description" content="Happy Birthday">
 	<meta name="robots" content="index, follow" />
@@ -27,6 +27,7 @@
 	<!-- <link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'> -->
 	<link rel="stylesheet/less" href="cake.less">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.1.0/less.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
 </head>
 
 <body>
@@ -36,32 +37,32 @@
 	   Your browser isn't invited for super fun audio time.
     </audio>
     <div class="balloons text-center" id="b1">
-    	<h2 style="color:#F2B300;">x</h2>
+    	<h2 style="color:#F2B300;">S</h2>
     </div>
     <div class="balloons text-center" id="b2">
-    	<h2 style="color:#0719D4;">k</h2>
+    	<h2 style="color:#0719D4;">A</h2>
     </div>
 	<div class="balloons text-center" id="b3">
-    	<h2 style="color:#D14D39;">l</h2>
+    	<h2 style="color:#D14D39;">N</h2>
     </div>
 	<div class="balloons text-center" id="b4">
-    	<h2 style="color:#8FAD00;">p</h2>
+    	<h2 style="color:#8FAD00;">D</h2>
     </div>
 	<div class="balloons text-center" id="b5">
-    	<h2 style="color:#8377E4;">j</h2>
+    	<h2 style="color:#8377E4;">R</h2>
     </div>
     <div class="balloons text-center" id="b6">
-    	<h2 style="color:#99C96A;">r</h2>
+    	<h2 style="color:#99C96A;">A</h2>
     </div>
-    <div class="balloons text-center" id="b7">
-    	<h2 style="color:#20CFB4;">t</h2>
-    </div>
+    <!-- <div class="balloons text-center" id="b7">
+    	<h2 style="color:#20CFB4;">!</h2>
+    </div> -->
 
     <img src="Balloon-Border.png" width="100%" class="balloon-border">
  
 
 	<div class="container">
-		
+		<h1 id="onboarding-text" style="color: #ffffff;">Kok gelap ya? Idupin lampu dulu gih</h1>
 		<div class="row">
 			<div class="col-md-2 col-xs-2 bulb-holder">
 				<div class="bulb" id="bulb_yellow"></div>
@@ -107,30 +108,32 @@
 		</div>
 		<div class="row message">
 			<div class="col-md-12">
-				<p>Selamat ulang tahun buk :)</p>
-				<p>Semoga sehat dan bahagia selalu nggih..</p>
-				<p>Matur suwun sanget..</p>
-				<p>Sampun ndongakke kula terus..</p>
-				<p>Sampun kerjo, nggih dados ibu rumah tangga sing mantep pol</p>
-				<p>Ngeterke&mapak kula lan denta terus</p>
-				<p>Nyuwun pangapura nggih buk kula mboten kerep maringi kabar</p>
-				<p>Kula sing mboten kerep cerito2..</p>
-				<p>Mboten kulinten e.. hehe</p>
-				<p>Matur suwun buk..</p>
-				<p>Barakallahu fii umriki</p>
+				<img id="story-img" src="bubu_sleep.gif" alt="bubu-sleep" style="display: block; max-width: 100%; height: 180px; width: max-content; margin: auto;">
+				<p class="messages">Selamat ulang tahun istriku sayangg 😘🎉</p>
+				<p class="messages">Ciee udah 27...</p>
+				<p class="messages">Semoga sehat dan bahagia selalu</p>
+				<p class="messages">Dimudahkan segala urusannya</p>
+				<p class="messages">Dilapangkan rezekinya</p>
+				<p class="messages">Makin rajin ibadahnya</p>
+				<p class="messages">Makin cantik 🥰</p>
+				<p class="messages">Makin sayang sama aku & keluarga</p>
+				<p class="messages">Semoga pernikahan kita semakin langgeng</p>
+				<p class="messages">Barakallah fii umrik</p>
+				<p class="messages">Wish you all the best</p>
+				<p class="messages">Love you so much ❤️</p>
 			</div>
 		</div>
 		<div class="navbar navbar-fixed-bottom">
 			<div class="row">
 				<div class="col-md-6 text-center col-md-offset-3">
-					<button class="btn btn-primary" id="turn_on">Kok gelap ya?</button>
-					<button class="btn btn-primary" id="play">Tambah musik boleh? :D</button>
-					<button class="btn btn-primary" id="bannar_coming">Kurang hiasan nih!</button>
+					<button class="btn btn-primary" id="turn_on">Hidupin 💡</button>
+					<button class="btn btn-primary" id="play">Tambah musik boleh? 🥰</button>
+					<button class="btn btn-primary" id="bannar_coming">Kurang hiasan nih, tambahin yuk!</button>
 					<button class="btn btn-primary" id="balloons_flying">Balonnya mana?</button>
-					<button class="btn btn-primary" id="cake_fadein">Kok nggak ada roti?</button>
+					<button class="btn btn-primary" id="cake_fadein">Kok ga ada kuenya?</button>
 					<button class="btn btn-primary" id="light_candle">Belum ada lilinnya!</button>
-					<button class="btn btn-primary" id="wish_message">Selamat Ulang Tahun Buk :D</button>
-					<button class="btn btn-primary" id="story">Di klik nggih..</button>
+					<button class="btn btn-primary" id="wish_message">Selamat Ulang Tahun Istriku 😘🎉</button>
+					<button class="btn btn-primary" id="story">Di klik gih...</button>
 					<!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
 				</div>
 			</div>
